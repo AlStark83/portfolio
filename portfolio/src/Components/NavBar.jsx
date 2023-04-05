@@ -15,10 +15,10 @@ function NavBar() {
 			{skills}
 			{products}
 			{contactMe} */}
-			<button><a href="#aboutMe">About Me</a></button>
-			<button><a href="#skills">Skills</a></button>
-			<button><a href="#products">Products</a></button>
-			<button><a href="#contactMe">Contact Me</a></button>
+			<a href="#aboutMe"><button>About Me</button></a>
+			<a href="#skills"><button>Skills</button></a>
+			<a href="#products"><button>Products</button></a>
+			<a href="#contactMe"><button>Contact Me</button></a>
 		</div>
 	);
 }

@@ -1,14 +1,10 @@
-import React from "react";
-import styles from "./Button.module.css";
+// import React from "react";
+// import styles from "./Button.module.css";
 
-function Button(url, text) {
-	return (
-		<div className={styles.container}>
-			<button  key = {text}> 
-			<a href={url}>{text}</a>
-			 </button>
-		</div>
-	);
-}
+// function Button(props) {
+// 	return (
+// 			<button onClick={props.onClick}>{props.text}</button>
+// 	);
+// }
 
-export default Button;
+// export default Button;

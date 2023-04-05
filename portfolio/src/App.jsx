@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import NavBar from "./Components/NavBar.jsx";
 import CardSkills from "./Components/Card_Skills";
+import CardProjects from "./Components/Card_Projects";
 
 function App() {
 	const frontEnd = CardSkills("Front-End", [
@@ -21,7 +22,13 @@ function App() {
 		"Postgres",
 		"Restful API's",
 	]);
-	const other = CardSkills("Other", ["Git", "Github", "VS Code", "Scrum Board"])
+	const other = CardSkills("Other", [
+		"Git",
+		"Github",
+		"VS Code",
+		"Scrum Board",
+	]);
+	const basicProject = CardProjects("", "API-Pokemon", "", ["React", "CSS modules", "Redux", "JavaScript", "Sequelize", "Postgres", "Node.js", "Express.js"], )
 
 	return (
 		<div className="App">
@@ -48,11 +55,21 @@ function App() {
 			</div>
 			<hr />
 			<div>
-				<h2 id="skills">Skills</h2>
+				<div>
+					<h2 id="skills">Skills</h2>
+				</div>
 				<div>
 					<div>{frontEnd}</div>
 					<div>{backEnd}</div>
 					<div>{other}</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<h2 id="projects">My Projects</h2>
+				</div>
+				<div>
+
 				</div>
 			</div>
 		</div>

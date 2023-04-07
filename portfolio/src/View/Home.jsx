@@ -69,12 +69,17 @@ function Home() {
 						About Me
 					</h2>
 				</div>
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-					nemo, atque incidunt, et voluptates, amet alias doloribus deleniti
-					quae dignissimos vitae praesentium inventore? Recusandae modi incidunt
-					laudantium quo nostrum nisi!
-				</p>
+				<div className={styles.aboutMeContent}>
+					<div className={styles.aboutMeContentCol1}></div>
+					<div className={styles.aboutMeContentCol2}>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+							nemo, atque incidunt, et voluptates, amet alias doloribus deleniti
+							quae dignissimos vitae praesentium inventore? Recusandae modi
+							incidunt laudantium quo nostrum nisi!
+						</p>
+					</div>
+				</div>
 			</div>
 			<hr />
 			<div>

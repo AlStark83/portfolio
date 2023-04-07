@@ -41,7 +41,7 @@
 	), url("C:\Users\ALBERTO\OneDrive\Escritorio\portfolio\portfolio\src\assets\hero-background.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .hero {
-	height: calc(100vh - 160px);
+	height: 100vh;
 	min-width: 360px;
 	display: flex;
 	flex-direction: column;
@@ -89,9 +89,21 @@ hr{
   background: linear-gradient(
 		to right,
 		rgb(21, 87, 153),
-		rgb(21, 153, 87));; 
+		rgb(21, 153, 87));
+		margin: 32px 0px;
 }
-
+.aboutMeContainer{
+	width: 100px;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
 .aboutMe{
   color: rgb(21, 87, 153);
+}
+.aboutMeContent{
+
 }

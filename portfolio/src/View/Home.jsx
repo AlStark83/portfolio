@@ -51,7 +51,7 @@ function Home() {
 				<div className={styles.heroContainer}>
 					<div className={styles.hero}>
 						<h1>Hi There! I'm Al</h1>
-						<h2>Full Stack Developer based in CDMX</h2>
+						<h2>Full Stack Developer based in CDMX, México</h2>
 						<div className={styles.imgMe}>
 							<img
 								src="\src\assets\Profile Picture AGC - Editado.png"

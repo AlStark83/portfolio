@@ -11,12 +11,15 @@
   max-width: 720px;
 }
 button{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 0px;
   width: 180px;
   height: 40px;
   color: rgb(250,250,250);
-  font-weight: bold;
   text-shadow: 1px 1px 2px rgb(0,80,0);
 }
 button:hover{
@@ -25,13 +28,3 @@ button:hover{
   text-shadow: 1px 1px 2px rgb(170,250,170);
   border-radius: 20px;
 }
-/* a{
-  width: 140px;
-  color: rgb(250,250,250);
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 1px 1px 2px rgb(0,50,0);
-} */
-/* a:hover{
-  color: rgb(0,50,0);
-} */

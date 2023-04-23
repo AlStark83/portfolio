@@ -49,7 +49,7 @@ function Home() {
 			"Stripe",
 			"JWT",
 		]),
-		"https://pi-pokemon-kappa.vercel.app/"
+		"https://pf-kane-travel.vercel.app//"
 	);
 	return (
 		<div className={styles.homeContainer}>

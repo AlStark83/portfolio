@@ -10,16 +10,16 @@ function NavBar() {
 	// const contactMe = Button("#contatcMe", "Contact Me");
 
 	return (
-		<div className={styles.navBarContainer}>
+		<nav className={styles.navBarContainer}>
 			{/* {aboutMe}
 			{skills}
 			{products}
 			{contactMe} */}
 			<a href="#aboutMe"><button>About Me</button></a>
 			<a href="#skills"><button>Skills</button></a>
-			<a href="#products"><button>Products</button></a>
+			<a href="#projects"><button>Projects</button></a>
 			<a href="#contactMe"><button>Contact Me</button></a>
-		</div>
+		</nav>
 	);
 }
 

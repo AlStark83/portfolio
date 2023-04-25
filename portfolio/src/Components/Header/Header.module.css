@@ -1,0 +1,12 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background: linear-gradient(to right, var(--main-color1), var(--main-color2));
+	height: auto;
+	min-height: 40px;
+	width: 100vw;
+	min-width: 360px;
+}

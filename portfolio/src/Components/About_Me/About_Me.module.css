@@ -1,0 +1,57 @@
+.aboutMeContainer {
+	width: 100vw;
+	max-width: 1080px;
+	min-width: 360px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.aboutMe {
+	color: var(--main-color1);
+	font-weight: 900;
+	text-shadow: 1px 1px var(--main-color2-opacity);
+}
+.svg {
+	width: 300px;
+	height: auto;
+}
+.aboutMeContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 90vw;
+	max-width: 1080px;
+}
+.aboutMeContentCol {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 45vw;
+	max-width: 540px;
+	min-width: 344px;
+	align-items: center;
+	justify-content: center;
+}
+.paragraphAboutMe {
+	font-size: 1.2rem;
+	font-family: "Poiret One", cursive;
+	text-shadow: 2px 2px var(--font-color2);
+	text-align: justify;
+	color: var(--font-color1);
+	padding: 24px;
+	background: var(--bg-gradient-opacity);
+	border: 4px outset var(--main-color2-opacity);
+	border-radius: 16px;
+}
+.sectionsContainer {
+	max-width: 1080px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-self: center;
+}

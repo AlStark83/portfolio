@@ -1,0 +1,29 @@
+:root {
+	--main-color1: var(--mirage1);
+	--main-color1-opacity: var(--mirage1-opacity);
+	--main-color2: var(--mirage2);
+	--main-color2-opacity: var(--mirage2-opacity);
+	--font-color1: var(--white);
+	--font-color2: var(--endless-river2L);
+	--bg-gradient-opacity: linear-gradient(
+		to right,
+		var(--main-color1-opacity),
+		var(--main-color2-opacity)
+	);
+	--bg-gradient: linear-gradient(
+		to right,
+		var(--main-color1),
+		var(--main-color2)
+	);
+	--ligthgrey: #999999;
+	--grey: #353535;
+	--white: #fafafa;
+	--frost1: #000428;
+	--frost2: #004e92;
+	--frost1-opacity: rgb(0, 4, 40, 0.8);
+	--frost2-opacity: rgb(0, 78, 146, 0.8);
+	--mirage1: #16222a;
+	--mirage1-opacity: rgb(22, 34, 42, 0.8);
+	--mirage2: #3a6073;
+	--mirage2-opacity: rgb(58, 96, 115, 0.8);
+}

@@ -38,7 +38,8 @@
 }
 .paragraphAboutMe {
 	font-size: 1.2rem;
-	font-family: "Poiret One", cursive;
+	font-family: 'Sulphur Point', sans-serif;
+	font-weight: 300;
 	text-shadow: 2px 2px var(--font-color2);
 	text-align: justify;
 	color: var(--font-color1);

@@ -27,3 +27,6 @@
 	--mirage2: #3a6073;
 	--mirage2-opacity: rgb(58, 96, 115, 0.8);
 }
+html {
+  scroll-behavior: smooth;
+}
